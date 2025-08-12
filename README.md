@@ -54,14 +54,13 @@ gsutil kms encryption -k projects/PROJECT_ID/locations/global/keyRings/kr/crypto
 
 ---
 
-### Screenshot Previews
-
-![S3 Encryption Settings](task4/screenshots/s3_encryption_settings.png)  
-![KMS Key Page](task4/screenshots/kms_key_page.png)  
-![IAM Policy Page](task4/screenshots/iam_policy_page.png)  
-![Bucket Policy Page](task4/screenshots/bucket_policy_page.png)  
-![CloudTrail Logging](task4/screenshots/cloudtrail_logging.png)
-
+## 📸 Screenshots
+Place these files in task4/screenshots/:
+- s3_encryption_settings.png
+- kms_key_page.png
+- iam_policy_page.png
+- bucket_policy_page.png
+- cloudtrail_logging.png
 
 ---
 
