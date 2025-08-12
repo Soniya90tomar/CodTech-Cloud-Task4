@@ -1,0 +1,8 @@
+# Create Service Account
+gcloud iam service-accounts create codtech-sa --display-name="CodTech Service Account"
+
+# Assign Object Admin role to Service Account
+gsutil iam ch serviceAccount:codtech-sa@PROJECT_ID.iam.gserviceaccount.com:objectAdmin gs://codtech-task4-bucket
+
+# Apply CMEK Encryption Key
+gsutil kms encryption -k projects/PROJECT_ID/locations/global/keyRings/kr/cryptoKeys/key gs://codtech-task4-bucket
